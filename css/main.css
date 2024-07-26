@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@media (hover: hover) {
+    #iconbutton:hover {
+        background-color: rgb(255, 196, 0);
+    }
+}
+@media (hover: none) {
+    #iconbutton:active {
+        background-color: rgb(255, 196, 0);
+    }
+}
+
+#container {
+    max-width: 390px;
+    height: 100%;
+    margin: 0;
+}
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#body {
+    background-color: #181818;
+    text-decoration-color: white;
+}
+#header {
+    width: 100%;
+    height: 9%;
+    text-align: center;
+    background: #181818;
+    float: left;
+}
+#main {
+    width: 100%;
+    height: 90%;
+    background: rgb(49, 49, 49);
+    float: left;
+    border-radius: 1px solid black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top: 5px solid rgb(255, 196, 0);
+    text-align: center;
+}
+#footer {
+    background-color: rgb(20, 20, 20);
+    width: 80%;
+    height: 10%;
+    text-align: center;
+    position: relative;
+    top: 80%;
+    left: 10%;
+    border-radius: 50px;
+}
+#list {
+    list-style: none;
+    display: block;
+    float: left;
+    width: 75%;
+    margin-left: 12.5%;
+    text-align: center;
+    padding-top: 50px;
+    position: absolute;
+}
+#list li {
+    display: inline;
+    color: white;
+    
+}
+#list li:not(:last-of-type) {
+    margin-right: 0.5px;
+}
+#clickzone {
+    background-color: rgba(0, 0, 255, 0.304);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 45px;
+}
+#icons {
+    list-style: none;
+    display: block;
+    float: left;
+    width: 85%;
+    margin-left: 7.5%;
+    text-align: center;
+    padding-top: 0px;
+    position: absolute;
+}
+#icons li {
+    display: inline;
+}
+#icons li:not(:last-of-type) {
+    margin-right: 5px;
+}
+#usernameblock {
+    width: 100%;
+    height: 100%;
+}
+#usercard {
+    background-color: rgba(0, 0, 255, 0);
+    position: relative;
+    width: 30%;
+    height: 50%;
+    top: 25%;
+    margin-left: 2.5%;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+#wallet {
+    background-color: blue;
+    position: relative;
+    width: 30%;
+    height: 50%;
+    top: -25%;
+    margin-left: 35%;
+}
+#clan {
+    background-color: blue;
+    position: relative;
+    width: 30%;
+    height: 50%;
+    top: -75%;
+    margin-left: 67.5%;
+}
+#balance {
+    background-color: blue;
+    position: relative;
+    width: 70%;
+    height: 5%;
+    top: 17.5%;
+    margin-left: 15%;
+}
+#maintools {
+    background-color: blue;
+    width: 350px;
+    height: 75px;
+    position: absolute;
+    top: 12%;
+    margin-left: 20px;
+}
+#clanprogress {
+    background-color: blue;
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top: 32.5%;
+    margin-left: 45px;
+}
+#mainbutton {
+    list-style: none;
+    display: block;
+    float: left;
+    width: 95%;
+    margin-left: 2.5%;
+    text-align: center;
+    padding-top: 0px;
+    position: absolute;
+}
+#mainbutton li {
+    display: inline;
+}
+#mainbutton li:not(:last-of-type) {
+    margin-right: 5%;
+}
+#backdroundbtn {
+    background-color: rgba(0, 0, 255, 0);
+    width: 350px;
+    height: 100px;
+    position: absolute;
+    top: 25%;
+    margin-left: 20px;
+}
+#share-btn {
+    background-color: green;
+    width: 350px;
+    height: 80px;
+    border-radius: 50px;
+}
